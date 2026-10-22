@@ -238,22 +238,11 @@ function noTransportsOptionsPrompt() {
         (Linux only) to connect to ZMK devices.
       </p>
 
-      <div>
-        <p>To use ZMK Studio, either:</p>
-        <ul className="list-disc list-inside">
-          <li>
-            Use a browser that supports the above web technologies, e.g.
-            Chrome/Edge, or
-          </li>
-          <li>
-            Download our{" "}
-            <ExternalLink href="/download">
-              cross platform application
-            </ExternalLink>
-            .
-          </li>
-        </ul>
-      </div>
+      <p>
+		To use ZMK Studio, use a browser that supports the above web
+		technologies such as Mozilla Firefox (version 151 or newer), Google
+		Chrome, or Microsoft Edge.
+      </p>
     </div>
   );
 }
